@@ -1,0 +1,28 @@
+nav{
+    border: 2px solid red;
+    padding-block: 1rem;
+}
+
+.innerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innerNav>h1{
+    color: #04614c;
+    text-transform: capitalize;
+}
+
+.navItems{
+    display: flex;
+    gap: 3rem;
+}
+
+.navItems>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
